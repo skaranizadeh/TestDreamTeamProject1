@@ -170,24 +170,6 @@ public class ProductManagement {
 
 
 
-//    private void menu() {
-//        Scanner sc = new Scanner(System.in);
-//        String input;
-//
-//        System.out.println("*********** List of product Categories **********");
-//        System.out.println("Select a number from the list to see a subcategory");
-//        int i = 1;
-//        for (Category category : categories.values()) {
-//            System.out.println(i++ + "- " + category.getCategoryName() );
-//        }
-//        System.out.print("Enter your category number: ");
-//        input = sc.nextLine();
-//        System.out.println(" You entered " + input);
-//
-//
-//
-//    }
-
     public static void main(String[] args)  {
         //System.out.println("Current Directory: " + System.getProperty("user.dir"));
         ProductManagement productManagement = new ProductManagement();
