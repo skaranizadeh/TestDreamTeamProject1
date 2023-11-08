@@ -12,7 +12,7 @@ public class ProductManagement {
     HashMap<String, Product> products = new HashMap<>();
 
     private void initializeDate() {
-        String csvFile = "/Users/mk/IdeaProjects/TestDreamTeamProject1/src/your_file.csv";
+        String csvFile = "your_file.csv";
         String line;
         String csvSplitBy = ",";
 
